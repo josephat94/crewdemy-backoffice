@@ -1,0 +1,23 @@
+{
+  "name": "webrtcvideobroadcast",
+  "version": "1.0.0",
+  "description": "WebRTC example for a video broadcast",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "WebRTC",
+    "SocketIO"
+  ],
+  "author": "Tanner Gabriel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
+}
